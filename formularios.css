@@ -1,5 +1,11 @@
-.pablo2 {
+*{
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.pablo2 {
     font-size: 16px;
     color: green;
 }
@@ -14,11 +20,62 @@ main {
 .form1 {
     padding: 6px;
 }
-body.main.form {
-    margin-top: 10px;
+.form__alverto {
+    margin-top: 1.5em;
+
 }
 main {
-    background-color: brown;
+    background:linear-gradient(180deg,red,blue);
     padding: 10px;
     margin: 10px;
+}
+footer {
+        background-color: blue;
+}
+.main-nav {
+    text-align: center;
+    list-style: none;
+    padding: 10px;
+    margin: 8px;
+    margin-top: 7px;
+    background-color: blueviolet;
+}
+.main-nav-item {
+    display: inline-block;
+    border-radius: 3px;
+    background-color: black;
+    transition: all 0.3s ease;
+}
+.main-nav-item a {
+    color: white;
+}
+.main-nav-item a::after {
+    content: "|";
+} 
+.main-nav-item a::before {
+    content: "|";
+}
+.main-nav-item a:active {
+    color:goldenrod
+}
+.main-nav-item a:hover {
+    color: blue;
+}
+
+.form__alverto div {
+     text-align: center;
+     padding-left: 16px;
+}
+
+.form__alverto div span {
+    display: block;
+}
+#enviar1 {
+    margin-top: 6px;
+}
+.h1-form {
+    font-size: 24px;
+    border-radius: 2px;
+    background-color: pink;
+    display: block;
 }
