@@ -1,8 +1,8 @@
 *{
     font-size: 16px;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: initial;
+    padding: initial; 
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .pablo2 {
@@ -10,9 +10,9 @@
     color: green;
 }
 .pablo {
-    padding: 10px;
-    margin-top: 8px;
-    margin: 6px;
+    padding: 0px;
+    margin-top: 0px;
+    margin: 0px;
 }
 main {
     text-align: center;
